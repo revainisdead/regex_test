@@ -1,0 +1,1 @@
+sed -i -e s/Set(Value)?|Get(Value)?/Test/g setvalue.txt

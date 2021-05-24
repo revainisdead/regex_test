@@ -1,0 +1,10 @@
+Test if a column field is larger than a given value
+    This function can also be called as an operator using the '>' syntax
+
+    Arguments:
+        - DbColumn self
+        - string or float value: the value to compare to
+            in case of string: lexicographic comparison
+            in case of float: numeric comparison
+    Returns:
+        DbWhere object
